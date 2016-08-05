@@ -1,10 +1,10 @@
 ﻿# path to cspack
 $cspackPath = Join-Path $env:ProgramFiles 'Microsoft SDKs\Azure\.NET SDK\v2.9\bin\cspack.exe'
 
-$PackagePath = '..\lab6.cspkg'
-$serviceDefinitionFile = '..\Lab6.AzureCloudService\ServiceDefinition.csdef'
+$PackagePath = '.\lab6.cspkg'
+$serviceDefinitionFile = '.\Lab6.AzureCloudService\ServiceDefinition.csdef'
 $webRoleName = 'WebRole1'
-$webRolePath = '..\'
+$webRolePath = '.\'
 
 # define the cspack parameters
 $cspackParameter = @(
