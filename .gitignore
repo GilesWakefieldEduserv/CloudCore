@@ -1,3 +1,6 @@
+#include packages/exes 
+! /packages/**/*.exe
+
 
 #ignore thumbnails created by windows
 Thumbs.db
